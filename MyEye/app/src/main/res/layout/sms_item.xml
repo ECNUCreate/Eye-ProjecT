@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.renlvda.MyEye.view.DispatchLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:background="@drawable/dialog_white_bg"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:text="1867960000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="今天晚上干嘛干嘛"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:gravity="right"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <Button
+                android:id="@+id/btn_send_sms"
+                android:background="@drawable/button_bg"
+                android:textColor="@android:color/white"
+                android:text="回复"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</com.example.renlvda.MyEye.view.DispatchLinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改密码"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/et_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="旧密码"/>
+    
+    <EditText
+        android:id="@+id/et_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新密码"/>
+
+    <EditText
+        android:id="@+id/et_new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="再次输入密码"/>
+
+    <Button
+        android:id="@+id/btn_update_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="修改密码"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="忘记密码"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="邮箱"/>
+
+    <Button
+        android:id="@+id/btn_forget_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="忘记密码"
+        android:textColor="@android:color/white"/>
+
+
+</LinearLayout>
